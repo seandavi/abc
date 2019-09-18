@@ -6,4 +6,4 @@ jobs:
   my_first_job:
     steps:
       - name: My first step
-        uses: seandavi/bioc_actions/check
+        uses: seandavi/bioc_actions/check@master
