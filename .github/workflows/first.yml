@@ -1,5 +1,8 @@
+on:
+  push:
+    paths:
+      "*"
 jobs:
-  on: push
   my_first_job:
     steps:
       - name: My first step
