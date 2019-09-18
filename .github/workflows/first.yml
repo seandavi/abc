@@ -4,6 +4,7 @@ on:
       "*"
 jobs:
   my_first_job:
+    runs-on: bioconductor/bioconductor_full
     steps:
       - name: My first step
         uses: seandavi/bioc_actions/check@master
